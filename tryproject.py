@@ -232,15 +232,6 @@ while True:
             
             # print percentage
             print("percent positive: " + str(percent_pos[0] / percent_pos[1]))
-            
-            # debug show cropped
-            cv2.imshow('cropped', cropped)
-            # save one image - for the report writeup
-            # print(percent_pos[0])
-            # if (percent_pos[0] < 10):
-            #   os.chdir('/Users/jspaniac/Desktop/project')
-            #   cv2.imwrite('before.bmp', frame)
-            #   cv2.imwrite('after.bmp', cropped)
     except:
       pass
 
