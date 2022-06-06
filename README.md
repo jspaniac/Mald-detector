@@ -4,7 +4,7 @@ Final project for CSE 455 - Computer Vision. For more detailed information on th
 ## How it works
 Images are taken from the device's webcam and run through an MCNN to find the bounding-box of any faces present in the image. The webcam image is then cropped to the dimensions returned, grayscaled, and sampled down to 48x48 pixels and run through a shallow CNN for emotion detection. Details on this network can be seen in the image below:
 
-![alt text](https://github.com/jspaniac/Mald-detector/blob/main/cnn.jpg?raw=true)
+![alt text](https://github.com/jspaniac/Mald-detector/blob/main/cnn.png?raw=true)
 
 ## Usage
 First, download the [emotion dataset](https://www.kaggle.com/datasets/ananthu017/emotion-detection-fer) from kaggle. The train/test directories should be placed in ./root/data/emotion
