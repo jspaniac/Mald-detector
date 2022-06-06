@@ -10,11 +10,9 @@ This model achieved a 70.0% testing accuracy on positive/negative emotions and 4
 A determination is then made on whether the percieved emotion is positive (happy, neutral) or negative (angry, disgusted, fearful, suprised) and displayed accordingly. The overall percentage that the user is displaying positive emotions is also printed to the console for use in future projects
 
 ## Usage
-First, change the PATH constant at the top of the file to the root directory.
+First, download the [emotion dataset](https://www.kaggle.com/datasets/ananthu017/emotion-detection-fer) from kaggle. The train and test directories should be placed in ./root/data/emotion
 
-Next, download the [emotion dataset](https://www.kaggle.com/datasets/ananthu017/emotion-detection-fer) from kaggle. The train and test directories should be placed in ./root/data/emotion
-
-Finally, activating the application is as simple as:
+Then, activating the application is as simple as:
 ```bash
 python tryproject.py
 ```
