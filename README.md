@@ -2,7 +2,7 @@
 Final project for CSE 455 - Computer Vision. For more detailed information on the project, see the [writeup website](https://sites.google.com/view/malddetector/home#h.60qg80mkvgmn).
 
 ## How it works
-Images are taken from the device's webcam and run through an MCNN to find the bounding-box of any faces present in the image. The webcam image is then cropped to the dimensions returned, grayscaled, and sampled down to 48x48 pixels and run through a shallow CNN for emotion detection. Details on this network can be seen in the image below:
+Images are taken from the device's webcam and run through an MTCNN to find the bounding-box of any faces present in the image. The webcam image is then cropped to the dimensions returned, grayscaled, and sampled down to 48x48 pixels and run through a shallow CNN for emotion detection. Details on this network can be seen in the image below:
 
 ![alt text](https://github.com/jspaniac/Mald-detector/blob/main/cnn.png?raw=true)
 This model achieved a 70.0% testing accuracy on positive/negative emotions and 45.6% on all 7 emotions, so results should be taken with a grain of salt.
